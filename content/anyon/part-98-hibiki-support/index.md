@@ -1,6 +1,6 @@
 ---
 
-title: 北学寄稿記事サポートページ
+title: part-98-hibiki-support
 date: 2025-12-27
 tags:
 

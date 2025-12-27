@@ -99,4 +99,4 @@ $$
 ## 前後の記事
 
 📚 目次：[[index|量子 Hall 効果とエニオン]]  
-次 →：[[02-quantum-hall|量子 Hall 効果]]
+次 →：[[01-quantum-hall|量子 Hall 効果]]
