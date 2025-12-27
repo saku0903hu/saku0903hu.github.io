@@ -35,7 +35,7 @@ npm ci
 
 git add .
 
-git commit -m "Update notes"
+git commit -m "Update notes"(この"が全角扱いされちゃうから半角に直して)
 
 git push
 
