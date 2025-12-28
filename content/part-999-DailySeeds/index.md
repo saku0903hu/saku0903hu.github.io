@@ -1,5 +1,5 @@
 ---
-title: Daily Seeds
+title: part-999-Daily Seeds
 description: 日々の日記です。
 tags:
     - setting

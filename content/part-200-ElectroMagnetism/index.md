@@ -1,5 +1,5 @@
 ---
-title: 電磁気学
+title: part-200-電磁気学
 description: 統計物理の周りの話をまとめます。
 tags:
   - statistical mechanics

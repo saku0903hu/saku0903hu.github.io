@@ -1,5 +1,5 @@
 ---
-title: 統計物理学
+title: part-100-統計物理学
 description: 統計物理の周りの話をまとめます。
 tags:
   - statistical mechanics
