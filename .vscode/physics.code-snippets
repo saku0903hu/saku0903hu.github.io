@@ -105,6 +105,20 @@
         ],
         "description": "Insert a LaTeX equation environment wrapped in $$"
     },
+    "Footnote Reference": {
+        "prefix": ["fn", "\\fn", "kyakutyu"],
+        "body": [
+            "[^${1:1}]$0"
+        ],
+        "description": "Insert a footnote reference"
+    },
+    "Footnote Definition": {
+        "prefix": ["fnd", "\\fnd", "kyakutyu-def"],
+        "body": [
+            "[^${1:1}]: $0"
+        ],
+        "description": "Insert a footnote definition"
+    },
     "Align Environment": {
         "prefix": ["begalign", "shiki-align"],
         "body": [

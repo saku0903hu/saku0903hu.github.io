@@ -1,14 +1,13 @@
 ---
-
 title: 01.二次元上の運動、Landau準位
 date: 2025-12-27
 tags:
-
-    - 2dsystem
-    - FQH
-    - IQH
-    - landaulevels
-
+  - 2dsystem
+  - FQH
+  - IQH
+  - landaulevels
+  - topological-order
+  - anyon
 ---
 
 # 量子力学による電子の運動
@@ -245,6 +244,49 @@ $$
 
 ---
 
+## 磁場中の電子の軌道波動関数
+固有状態が求まったので、波動関数を求めることができる。
+
+昇降演算子を本来の座標、運動量で書き直すと、
+$$
+\begin{align}
+    a &= \frac{1}{\sqrt{2}\hbar}(-\frac{i}{2}(x-iy)- i l^2(\frac{\partial}{\partial x} - i \frac{\partial}{\partial y}))\\
+    b &= \frac{1}{\sqrt{2}l}( \frac{1}{2}(x+iy) + l^2(\frac{\partial}{\partial x} + i\frac{\partial}{\partial y}) )
+\end{align}
+$$
+となる。
+ここで、複素座標を導入する。
+> [!info] 定義: 複素座標
+> $$
+>\begin{align}
+>  z &= \frac{x+iy}{2l} \\
+>  z^* &= \frac{x-iy}{2l}
+>\end{align}
+>$$
+このとき、昇降演算子は
+$$
+\begin{align}
+    a &= -i\sqrt{2}e^{-|z|^2/4}\frac{\partial}{\partial z^*}e^{|z|^2/4}\\
+    a^\dagger &= \frac{i}{\sqrt{2}}e^{-|z|^2/4}(z^* -2 \frac{\partial}{\partial z})e^{-|z|^2/4}\\
+    b &= \sqrt{2}e^{-|z|^2/4}\frac{\partial}{\partial z}e^{|z|^2/4}\\
+    b^\dagger &= \frac{1}{\sqrt{2}}e^{-|z|^2/4}(z-2 \frac{\partial}{\partial z^*} )e^{|z|^2/4}
+\end{align}
+$$
+となる。
+ただし、微分はこれらの演算子が作用する関数にも及ぶものとする。
+
+基底状態$\ket{0,0}$の波動関数$\phi_{0,0}\coloneqq \braket{r|0,0}$は、$a\ket{0,0}=0,b\ket{0,0}=0$を解くことで、
+$$
+\begin{equation}
+  \phi_{0,0}(\boldsymbol{r})=\frac{1}{\sqrt{2\pi l^2}}e^{-\frac{|z|^2}{4}}=\frac{1}{\sqrt{2\pi l^2}}e^{-\frac{r^2}{4l^2}}
+\end{equation}
+$$
+となる [^1]。
+
+[^1]: この証明したい。 
+
+
+---
 ## 前後の記事
 
 📚 目次：[[index|量子 Hall 効果とエニオン]]  
