@@ -69,4 +69,4 @@ $$
 
 ← 前：[[01-landau-levels|Landau 準位]]  
 📚 目次：[[index|量子 Hall 効果とエニオン]]  
-次 →：[[03-integer-qhe|整数量子 Hall 効果（IQH）]]
+次 →：[[03-iqhe-overview|整数量子 Hall 効果（IQH）]]

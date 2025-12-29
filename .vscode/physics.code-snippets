@@ -26,19 +26,70 @@
         "prefix": ["theorem", "teiri"],
         "body": [
             "> [!theorem] 定理: $1",
-            "> $0"
+            "> $0",
+            "> ",
+            "> ",
+            "> ",
+            "> ",
+            "> ",
+            "> ",
+            "> "
         ],
-        "description": "Insert a theorem callout"
+        "description": "Insert a theorem callout with many lines"
     },
     "Proof Environment": {
         "prefix": ["proof", "shoumei"],
         "body": [
             "> [!proof] 証明",
-            "> $0",
+            "> $1",
             "> ",
-            "> □"
+            "> ",
+            "> ",
+            "> ",
+            "> ",
+            "> ",
+            "> ",
+            "> □$0"
         ],
-        "description": "Insert a proof callout"
+        "description": "Insert a proof callout with many lines"
+    },
+    "Bulk Callout Lines": {
+        "prefix": ["...", ">>>"],
+        "body": [
+            "> $1",
+            "> $2",
+            "> $3",
+            "> $4",
+            "> $5$0"
+        ],
+        "description": "Insert 5 callout lines at once"
+    },
+    "Callout Line": {
+        "prefix": [">", "kk"],
+        "body": [
+            "> $0"
+        ],
+        "description": "Insert a callout line marker"
+    },
+    "Equation in Callout": {
+        "prefix": ["ceq", "cshiki"],
+        "body": [
+            "> $$",
+            "> $1",
+            "> $$$0"
+        ],
+        "description": "Insert an equation block inside a callout"
+    },
+    "Equation Environment in Callout": {
+        "prefix": ["cbegeq", "cshiki-env"],
+        "body": [
+            "> $$",
+            "> \\begin{equation}",
+            ">   $1",
+            "> \\end{equation}",
+            "> $$$0"
+        ],
+        "description": "Insert a LaTeX equation environment inside a callout"
     },
     "Definition Environment": {
         "prefix": ["definition", "teigi"],

@@ -7,7 +7,7 @@ tags:
     - IQH
 ---
 
-# 整数量子 Hall 効果（IQH）
+# 整数量子 Hall 効果（IQH）概要
 
 Landau 準位が観測される代表的な現象として整数量子 Hall 効果がある。
 
@@ -29,7 +29,7 @@ Landau 準位が観測される代表的な現象として整数量子 Hall 効�
    $$
    \sigma_{xy}=\nu\frac{e^2}{h}, \qquad \nu\in\mathbb{Z}
    $$
-   と整数値に量子化される
+   と整数値に量子化される。
 
 ## 観測条件
 
