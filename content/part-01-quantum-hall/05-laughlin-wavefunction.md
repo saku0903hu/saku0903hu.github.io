@@ -5,6 +5,7 @@ date: 2025-12-27
 tags:
     - fqh
     - Laughlin
+    - LandauLevels
 ---
 
 # Laughlin 波動関数
@@ -85,7 +86,7 @@ $$
 \end{equation}
 $$
 が得られる。
-これをLaughlin波動関数と呼ぶ。
+これを**Laughlin波動関数**と呼ぶ。
 
 熱力学極限では占有率は
 
