@@ -1,9 +1,10 @@
 ---
-title: 06-Landau準位の占有率とLaughlinの波動関数のパラメタ
+title: 06.Landau準位の占有率とLaughlinの波動関数のパラメタ
 tags:
   - 2dsystem
   - FQH
   - landaulevels
+  - Laughlin
 ---
 
 Laughlin波動関数のパラメタ $q$ は分数量子Hall状態の**充填率(filling factor)** $\nu$ と関係している。
