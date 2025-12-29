@@ -14,14 +14,18 @@ tags:
 磁場 $\boldsymbol{B}$ 中の自由電子のHamiltonianは
 
 $$
+\begin{equation}
 H= \frac{1}{2m_e}(\boldsymbol{p}-e\boldsymbol{A})^2 -g \mu_B sB
+\end{equation}
 $$
 
 で与えられる。ここで $\boldsymbol{A}$ はベクトルポテンシャルであり、$\boldsymbol{B}=\nabla\times\boldsymbol{A}$ を満たす。
 また、$\boldsymbol{p}$は正準運動量で交換関係
 
 $$
+\begin{equation}
 [p_\alpha, r_\beta] = -i\hbar \delta_{\alpha,\beta} \quad \alpha,\beta = x,y,z
+\end{equation}
 $$
 を満たす。
 
@@ -34,18 +38,24 @@ $g$ は電子の$g$因子($g$-factor)、$\mu_B$ はBohr磁子、$s$ はスピン
 
 > [!info] 定義: 速度演算子
 >$$
+>\begin{equation}
 >\boldsymbol{v} \coloneqq \frac{i}{\hbar} [H, \boldsymbol{r}] = \frac{1}{m_e}(\boldsymbol{p}-e\boldsymbol{A})
+>\end{equation}
 >$$
 
 これを用いて、動的運動量(dynamical momentum)演算子 $\boldsymbol{\pi}$ を定義できる。
 
 > [!info] 定義: 動的運動量演算子
 >$$
+>\begin{equation}
 >\boldsymbol{\pi} \coloneqq m_e \boldsymbol{v} = \boldsymbol{p}-e\boldsymbol{A}
+>\end{equation}
 >$$ 
 動的運動量演算子は交換関係
 $$
+\begin{equation}
 [\pi_\alpha, \pi_\beta] = -i\hbar e \epsilon_{\alpha\beta\gamma} B_\gamma = -i \frac{\hbar^2}{l^2} \epsilon_{\alpha\beta\gamma} B_\gamma 
+\end{equation}
 $$
 を満たす。
 
@@ -57,40 +67,79 @@ $$
 
 > [!info] 定義: 磁場中の並進演算子の生成演算子:擬運動量(pseudomomentum)$\boldsymbol{K}$
 > $$
+>\begin{equation}
 >\boldsymbol{K} = \boldsymbol{\pi} + e \boldsymbol{B} \times \boldsymbol{r} 
+>\end{equation}
 >$$
 > この演算子は Hamiltonian と交換する。
 
 距離$\boldsymbol{\delta}$だけの並進演算子は
 $$
+\begin{equation}
 t(\boldsymbol{\delta}) = e^{-\frac{i}{\hbar} \boldsymbol{\delta} \cdot \boldsymbol{K}}
+\end{equation}
 $$
 となる。
 
+擬運動量は他の量と交換関係
+$$
+\begin{equation}
+[K_\alpha,\pi_\beta] = [K_\alpha,H]=  0,
+\end{equation}
+$$
+を満たし、
+$$
+\begin{equation}
+[K_\alpha, K_\beta]= -i \hbar e \epsilon_{\alpha\beta\gamma} B_\gamma = i \frac{\hbar^2}{l^2} \epsilon_{\alpha\beta\gamma} B_\gamma
+\end{equation}
+$$
+を満たす。
+これより、この並進演算子は非可換であることがわかる。
+$$
+\begin{equation}
+t(\boldsymbol{a})t(\boldsymbol{b}) = t(\boldsymbol{b})t(\boldsymbol{a})e^{-i \frac{[\boldsymbol{a}\times\boldsymbol{b}]_z}{l^2}} 
+\end{equation}
+$$
+ここで、$\boldsymbol{a}$と$\boldsymbol{b}$は2次元ベクトルである。
+この非か換性は磁場中の運動にAharonov-Bohm位相が関与することに起因する。
+
+角運動量に関しては、ただ一つを考えればよく、
+> [!info] 定義: 角運度量
+>$$
+>\begin{equation}
+>\boldsymbol{L} = \boldsymbol{r} \times \boldsymbol{p}
+>\end{equation}
+>$$ 
+でよい。
+
+
+## 📝 この章のまとめ
+> [!abstract] ポイント
+> - 磁場中の運動量には3種類ある。
+>  - 正準運動量 $\boldsymbol{p}$ : 位置演算子と正準交換関係を満たす。
+> - 動的運動量 $\boldsymbol{\pi}$ : 速度演算子に比例する。
+> - 擬運動量 $\boldsymbol{K}$ : 並進演算子の生成演算子であり、Hamiltonianと交換する。
+> - 磁場中の並進演算子は非可換である。
+---
+> 
 # Landau 準位
 
-$z$方向に磁場をかける。
-磁場は
-
-$\boldsymbol{B}=(0,0,B)$
-
-である。
-磁場中の2次元平面内の自由電子の Hamiltonian は
+磁場中の2次元自由電子の軌道運動のHamiltonianは
 
 $$
+\begin{equation}
 H=\frac{1}{2m}\boldsymbol{\pi}^2,
 \qquad
 \boldsymbol{\pi}=\boldsymbol{p}-e\boldsymbol{A}
+\end{equation}
 $$
-
-である。動的運動量は
+である。
+これは動的運動量を用いて書かれているため正準共役な組として$(\boldsymbol{r},\boldsymbol{p})$をとるより、$(\boldsymbol{r},\boldsymbol{\pi})$を用いる方が自然である。
 $$
-[\pi_x,\pi_y]=-\frac{i\hbar^2}{l^2},
-\qquad
-l=\sqrt{\frac{\hbar}{eB}}
+\begin{equation}
+  a
+\end{equation}
 $$
-
-を満たす。$l$ は磁気長（magnetic length）である。
 
 ## 中心座標演算子
 

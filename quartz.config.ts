@@ -72,9 +72,14 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({
-      renderEngine: "mathjax",
+        renderEngine: "mathjax",
         customMacros: {
           "\\bm": ["\\boldsymbol{#1}", 1],
+        },
+        mathJaxOptions: {
+          tex: {
+            tags: "ams",
+          },
         },
       }),
     ],

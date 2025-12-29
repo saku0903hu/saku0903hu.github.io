@@ -72,5 +72,49 @@
             "$$$0"
         ],
         "description": "Insert LaTeX equation block"
+    },
+    "Chapter Summary": {
+        "prefix": ["summary", "matome"],
+        "body": [
+            "## 📝 この章のまとめ",
+            "> [!abstract] ポイント",
+            "> - $1",
+            "> - $2",
+            "> ",
+            "> $0"
+        ],
+        "description": "Insert a chapter summary section"
+    },
+    "Numbered Equation": {
+        "prefix": ["eqnum", "shiki-ban"],
+        "body": [
+            "$$",
+            "$1 \\tag{${2:1}}",
+            "$$$0"
+        ],
+        "description": "Insert a numbered LaTeX equation with \\tag{}"
+    },
+    "Equation Environment": {
+        "prefix": ["begeq", "shiki-env"],
+        "body": [
+            "$$",
+            "\\begin{equation}",
+            "  $1",
+            "\\end{equation}",
+            "$$$0"
+        ],
+        "description": "Insert a LaTeX equation environment wrapped in $$"
+    },
+    "Align Environment": {
+        "prefix": ["begalign", "shiki-align"],
+        "body": [
+            "$$",
+            "\\begin{align}",
+            "  $1 &= $2 \\\\",
+            "  $3 &= $4",
+            "\\end{align}",
+            "$$$0"
+        ],
+        "description": "Insert a LaTeX align environment wrapped in $$"
     }
 }
