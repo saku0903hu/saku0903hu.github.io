@@ -1,5 +1,5 @@
 ---
-title: 電場中の誘電体の熱力学的関係式
+title: 電場中の誘電体の熱力学的関係式(underconstruction)
 description: 統計物理の周りの話をまとめます。
 tags:
   - statistical mechanics

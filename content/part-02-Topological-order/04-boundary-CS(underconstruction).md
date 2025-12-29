@@ -1,12 +1,9 @@
 ---
-
-title: 4.境界あり Chern–Simons 理論
+title: 4.境界あり Chern–Simons 理論(underconstruction)
 date: 2025-12-27
 tags:
-
-    - Chern-Simons
-    - anyon
-
+  - Chern-Simons
+  - anyon
 ---
 
 境界のある CS 理論では chiral boson が現れることを確かめる。
@@ -118,5 +115,5 @@ $$
 
 ## 前後の記事
 
-- ⬅️ 前：[[03-CS-theory|3. Chern–Simons 理論]]
+- ⬅️ 前：[[03-CS-theory(underconstruction)|3. Chern–Simons 理論]]
 - ➡️ 次：[[05-nonabelian-anyon|5. 非可換 anyon]]

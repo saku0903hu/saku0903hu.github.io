@@ -1,12 +1,9 @@
 ---
-
-title: 3.Chern–Simons（CS）理論
+title: 3.Chern–Simons（CS）理論(underconstruction)
 date: 2025-12-27
 tags:
-
   - Chern-Simons
   - FQH
-
 ---
 
 ## Chern–Simons 理論の作用と Particle–Vortex duality
@@ -245,5 +242,5 @@ $$
 
 ## 前後の記事
 
-- ⬅️ 前：[[02-nonabelian-fqh|2. 非可換 anyon の例：FQH]]
-- ➡️ 次：[[04-boundary-CS|4. 境界あり Chern–Simons 理論]]
+- ⬅️ 前：[[02-nonabelian-fqh(underconstruction)|2. 非可換 anyon の例：FQH]]
+- ➡️ 次：[[04-boundary-CS(underconstruction)|4. 境界あり Chern–Simons 理論]]

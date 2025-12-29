@@ -1,11 +1,8 @@
 ---
-
-title: 1.はじめに
+title: 1.はじめに(underconstruction)
 date: 2025-12-27
 tags:
-
-    - topological-order
-
+  - topological-order
 ---
 
 物性物理学において、相を分類すると、だいたいその物質の物性がわかったという。
@@ -36,4 +33,4 @@ $\lambda>0$ のときは系のスピンはランダムになっており特別�
 
 ## 前後の記事
 
-- ➡️ 次：[[02-nonabelian-fqh|2. 非可換 anyon の例：FQH]]
+- ➡️ 次：[[02-nonabelian-fqh(underconstruction)|2. 非可換 anyon の例：FQH]]

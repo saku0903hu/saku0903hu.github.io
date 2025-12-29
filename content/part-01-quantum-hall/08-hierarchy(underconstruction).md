@@ -11,7 +11,7 @@ tags:
 
 ---
 
-# 階層構造（Hierarchy）
+# 階層構造（Hierarchy）(underconstruction)
 
 FQH 状態は $\nu=1/q$ だけでなく
 

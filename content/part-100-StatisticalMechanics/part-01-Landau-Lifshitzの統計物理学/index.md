@@ -9,7 +9,7 @@ tags:
 
 ## Sections
 
-- [[01-pockels|Pockels効果]]
+- [[01-pockels(underconstruction)|Pockels効果]]
 
 
 ← [[anyon/index|Anyon theory]]

@@ -7,7 +7,7 @@ tags:
 
 ---
 
-# 量子 Hall 効果
+# 量子 Hall 効果(underconstruction)
 
 磁場中の 2 次元電子系を考える。面内に $x,y$ 平面をとり、磁場は面に垂直にかかっているとする。
 
@@ -69,4 +69,4 @@ $$
 
 ← 前：[[01-landau-levels|Landau 準位]]  
 📚 目次：[[index|量子 Hall 効果とエニオン]]  
-次 →：[[03-iqhe-overview|整数量子 Hall 効果（IQH）]]
+次 →：[[03-iqhe-overview(underconstruction)|整数量子 Hall 効果（IQH）]]

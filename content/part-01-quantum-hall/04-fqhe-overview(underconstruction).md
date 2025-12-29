@@ -9,7 +9,7 @@ tags:
 
 ---
 
-# 分数量子 Hall 効果（FQH）概要
+# 分数量子 Hall 効果（FQH）概要(underconstruction)
 
 極低温・強磁場条件下で同様の実験を行うと、Hall 抵抗が分数値をとることが観測される。
 

@@ -7,7 +7,7 @@ tags:
     - IQH
 ---
 
-# 整数量子 Hall 効果（IQH）概要
+# 整数量子 Hall 効果（IQH）概要(underconstruction)
 
 Landau 準位が観測される代表的な現象として整数量子 Hall 効果がある。
 

@@ -1,12 +1,9 @@
 ---
-
-title: 2.非可換 anyon の例：FQH
+title: 2.非可換 anyon の例：FQH(underconstruction)
 date: 2025-12-27
 tags:
-
-    - anyon
-    - FQH
-
+  - anyon
+  - FQH
 ---
 
 2 次元 $xy$ 平面上の電子ガスを考える[^gas]。電場を $y$ 方向、磁場を $z$ 方向にかける。このとき $x$ 方向に電流 $J_y$ が流れるというのが量子 Hall 効果である。$J_y$ は
@@ -114,5 +111,5 @@ $\nu=1/3$ では $e^*=e/3$ が観測されている。なお shot noise は電�
 
 ## 前後の記事
 
-- ⬅️ 前：[[01-intro|1. はじめに]]
-- ➡️ 次：[[03-CS-theory|3. Chern–Simons（CS）理論]]
+- ⬅️ 前：[[01-intro(underconstruction)|1. はじめに]]
+- ➡️ 次：[[03-CS-theory(underconstruction)|3. Chern–Simons（CS）理論]]

@@ -1,5 +1,5 @@
 ---
-title: 電場中の複屈折と Kerr 効果
+title: 電場中の複屈折と Kerr 効果(underconstruction)
 description: 統計物理の周りの話をまとめます。
 tags:
   - statistical mechanics
