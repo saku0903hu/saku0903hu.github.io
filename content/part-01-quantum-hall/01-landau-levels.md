@@ -1,6 +1,6 @@
 ---
 
-title: 01.Landau準位
+title: 01.二次元上の運動、Landau準位
 date: 2025-12-27
 tags:
 
@@ -31,9 +31,12 @@ $$
 
 $g$ は電子の$g$因子($g$-factor)、$\mu_B$ はBohr磁子、$s$ はスピン量子数である。
 
-以下では電子の軌道運動に注目し、スピン項を無視する。
+---
 
 ## 運動量演算子、角運動量演算子
+
+以下では電子の軌道運動に注目し、スピン項を無視する。
+
 磁場中では正準運動量演算子 $\boldsymbol{\pi}$ と速度演算子 $\boldsymbol{v}$ は異なる。
 
 > [!info] 定義: 速度演算子
@@ -60,6 +63,8 @@ $$
 を満たす。
 
 ここで、$l = \sqrt{\frac{\hbar}{eB}}$ は磁気長(magnetic length)あるいはLarmor半径と呼ばれる。
+
+---
 
 ## 並進演算子の生成演算子
 ゼロ磁場の場合、運動量演算子は並進運動の生成演算子である。
@@ -134,78 +139,108 @@ H=\frac{1}{2m}\boldsymbol{\pi}^2,
 \end{equation}
 $$
 である。
-これは動的運動量を用いて書かれているため正準共役な組として$(\boldsymbol{r},\boldsymbol{p})$をとるより、$(\boldsymbol{r},\boldsymbol{\pi})$を用いる方が自然である。
+これは動的運動量を用いて書かれているため正準共役な組として$\boldsymbol{\pi}$をとるほうが自然である。。
+もう一つの正準共役な組として中心座標演算子を導入する。
+
+> [!info] 定義: 中心座標演算子
+> 正準変換として中心座標演算子 $(X,Y)$ を
+>$$
+>\begin{equation}
+>\boldsymbol{r}= (x,y)=
+>\left(
+>X+\frac{l^2}{\hbar}\pi_y,
+>Y-\frac{l^2}{\hbar}\pi_x
+>\right)
+>\end{equation}
+>$$
+>で定義する。
+
+このとき
 $$
 \begin{equation}
-  a
+[X,Y]=il^2
 \end{equation}
 $$
+が成り立ち、$X,\boldsymbol{\pi}$は可換、$Y,\boldsymbol{\pi}$も可換である。
+また、$K_x = -eBY,K_y = eBX$である。
 
-## 中心座標演算子
-
-正準変換として中心座標演算子 $(X,Y)$ を
-
-$$
-\boldsymbol{r}=
-\left(
-X+\frac{l^2}{\hbar}\pi_y,;
-Y-\frac{l^2}{\hbar}\pi_x
-\right)
-$$
-
-で定義する。このとき
-
-$$
-[X,Y]=il^2
-$$
-
-が成り立つ。
+---
 
 ## 昇降演算子
 
-動的運動量に対して
-
+Hamiltonianは動的運動量について1次元調和振動子と同様の形をしているため、
 $$
+\begin{equation}
+  [a,a^\dagger]=1
+\end{equation}
+$$
+を満たす昇降演算子を
+$$
+\begin{equation}
 \begin{aligned}
-a &= \frac{l}{\sqrt{2}\hbar}(\pi_x-i\pi_y), \
+a &= \frac{l}{\sqrt{2}\hbar}(\pi_x-i\pi_y), \\
 a^\dagger &= \frac{l}{\sqrt{2}\hbar}(\pi_x+i\pi_y)
 \end{aligned}
+\end{equation}
 $$
-
-と定義すると Hamiltonian は
-
+と定義することができ、Hamiltonianは
 $$
+\begin{equation}
 H=\hbar\omega_c\left(a^\dagger a+\frac{1}{2}\right)
+\end{equation}
 $$
+となり、エネルギー準位が離散化する。これを **Landau 準位**と呼ぶ。
 
-となり、エネルギー準位が離散化する。これを Landau 準位と呼ぶ。
+ただし、$\omega_c = \frac{|e|B}{m}$ はサイクロトロン周波数である。
 
-以下では対称ゲージ
-
-$$
-\boldsymbol{A}=(-By/2,;Bx/2,;0)
-$$
-
-を用いる。
+---
 
 ## 中心座標の自由度
 
-中心座標に対しても昇降演算子を
-
+以下では対称ゲージ
 $$
-\begin{aligned}
-b &= \frac{1}{\sqrt{2}l}(X-iY), \
-b^\dagger &= \frac{1}{\sqrt{2}l}(X+iY)
-\end{aligned}
+\begin{equation}
+\boldsymbol{A}=(\frac{-By}{2}, \frac{Bx}{2}, 0)
+\end{equation}
 $$
+を用いる。
 
-と定義する。角運動量演算子は
-
+角運動量演算子の$z$成分は
 $$
-L_z=\hbar(a^\dagger a-b^\dagger b)
+\begin{equation}
+  L_z = x p_y - y p_x = -\frac{\hbar}{2l^2}(X^2+Y^2) + \frac{l^2}{2\hbar^2}(\pi_x^2+\pi_y^2)
+\end{equation}
 $$
-
 となる。
+$L_z$はHamiltonianと可換であり、Landau準位のエネルギー固有状態は$L_z$の固有状態でもあるため、Landau準位の自由度を区別する量子数(良い量子数)である。
+
+2nd termは運動エネルギーに比例するが、1st termは中心座標に依存する。
+しかし、1st termも調和振動子の形をしているため、$[b,b^\dagger]=1$を満たす昇降演算子を導入し解くことができる。
+> [!info] 定義: 中心座標に対応する昇降演算子
+> $$
+>\begin{align}
+>  b &= \frac{1}{\sqrt{2}l}(X - iY), \\
+>  b^\dagger &= \frac{1}{\sqrt{2}l}(X + iY)
+>\end{align}
+>$$
+これを用いて角運動量演算子は
+$$
+\begin{equation}
+L_z=\hbar(a^\dagger a-b^\dagger b)
+\end{equation}
+$$
+となる。
+
+以上より、電子の状態はこの2組の昇降演算子の占有数で特徴づけられることがわかる。
+つまり、整数$n,m \geqq 0$を用いて
+$$
+\begin{align}
+  a^\dagger a \ket{n,m} &= n\ket{n,m} \\
+  b^\dagger b \ket{n,m} &= m\ket{n,m}
+\end{align}
+$$
+を満たす状態$\ket{n,m}$で特徴づけられる。
+軌道角運動量の固有値は$\hbar(n-m)$である。
 
 ---
 
