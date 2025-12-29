@@ -1,0 +1,76 @@
+{
+    "Bold Symbol (boldsymbol)": {
+        "prefix": ["bm", "\\bm", "bs", "\\boldsymbol"],
+        "body": [
+            "\\boldsymbol{$1}$0"
+        ],
+        "description": "Insert \\boldsymbol{} for bold math symbols"
+    },
+    "Equation Block": {
+        "prefix": ["eq", "\\eq"],
+        "body": [
+            "$$",
+            "$1",
+            "$$"
+        ],
+        "description": "Insert LaTeX equation block"
+    },
+    "Inline Math": {
+        "prefix": ["im", "\\im"],
+        "body": [
+            "\\$ $1 \\$"
+        ],
+        "description": "Insert inline math"
+    },
+    "Theorem Environment": {
+        "prefix": ["theorem", "teiri"],
+        "body": [
+            "> [!theorem] 定理: $1",
+            "> $0"
+        ],
+        "description": "Insert a theorem callout"
+    },
+    "Proof Environment": {
+        "prefix": ["proof", "shoumei"],
+        "body": [
+            "> [!proof] 証明",
+            "> $0",
+            "> ",
+            "> □"
+        ],
+        "description": "Insert a proof callout"
+    },
+    "Definition Environment": {
+        "prefix": ["definition", "teigi"],
+        "body": [
+            "> [!info] 定義: $1",
+            "> $0"
+        ],
+        "description": "Insert a definition callout"
+    },
+    "Lemma Environment": {
+        "prefix": ["lemma", "hodai"],
+        "body": [
+            "> [!theorem] 補題: $1",
+            "> $0"
+        ],
+        "description": "Insert a lemma callout"
+    },
+    "Proposition Environment": {
+        "prefix": ["proposition", "meidai"],
+        "body": [
+            "> [!theorem] 命題: $1",
+            "> $0"
+        ],
+        "description": "Insert a proposition callout"
+    },
+    "Equation Block (suushiki)": {
+        "prefix": ["suushiki", "eq", "\\eq"],
+        "body": [
+            "$$",
+            "$1",
+            "$$$0"
+        ],
+        "description": "Insert LaTeX equation block"
+    }
+}

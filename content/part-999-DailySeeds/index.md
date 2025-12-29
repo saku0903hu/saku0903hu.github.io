@@ -4,6 +4,7 @@ description: 日々の日記です。
 tags:
     - setting
     - Quartz
+    - seeds
 ---
 
 ## 日記です。
