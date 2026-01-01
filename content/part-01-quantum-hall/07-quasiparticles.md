@@ -1,18 +1,13 @@
 ---
-
-title: 07.準粒子と分数電荷
+title: 07.準粒子励起
 date: 2025-12-27
 tags:
-
-    - fqh
-    - quasiparticle
-    - Laughlin
-
+  - fqh
+  - quasiparticle
+  - Laughlin
+  - anyon
 ---
 
-
-
-ことを前提に、励起を考えていく。
 
 > [!info] RMK: 
 > Laughlin状態は各電子に奇数個の磁束量子を結びつけた状態である。[[01-landau-levels|Landau 準位]]
