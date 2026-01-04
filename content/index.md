@@ -29,7 +29,7 @@ tags:
 
 - ### エニオンについて
 
-  →  [[part-01-quantum-hall/index|量子ホール効果とエニオン]]
+  →  [[content/part-01-quantum-hall/index|量子ホール効果とエニオン]]
 
   量子ホール効果を解説したいと思っています。
   内容はまだ信用できません。

@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/part-998-music/hikigatari.md",
+                "file": "content/part-07-identical-particles/01-configration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hikigatari"
+              "title": "01-configration"
             }
           }
         ],
@@ -228,6 +228,18 @@
   },
   "active": "d223bf92e1294e65",
   "lastOpenFiles": [
+    "content/part-07-identical-particles/02-Identical-particle-in-QM.md",
+    "content/part-07-identical-particles/02-Identical-particle-in-CM copy.md",
+    "content/part-07-identical-particles/02-Identical-particle-in-CM.md",
+    "content/part-07-identical-particles/02-.md",
+    "content/part-07-identical-particles/01-configration copy.md",
+    "content/part-01-quantum-hall/01-landau-levels.md",
+    "content/part-07-identical-particles/01-configration.md",
+    "content/part-07-identical-particles/index.md",
+    "content/part-100-StatisticalMechanics/index.md",
+    "content/part-06-appendix/index.md",
+    "content/part-998-music/hikigatari.md",
+    "content/part-07-identical-particles",
     "public/part-999-DailySeeds/seeds20251230-og-image.webp",
     "public/part-999-DailySeeds/seeds20251229-og-image.webp",
     "public/part-999-DailySeeds/push-og-image.webp",
@@ -238,7 +250,6 @@
     "public/part-200-ElectroMagnetism/part-01-光学効果/01-EMTD(underconstruction)-og-image.webp",
     "public/part-200-ElectroMagnetism/index-og-image.webp",
     "public/part-100-StatisticalMechanics/part-01-Landau-Lifshitzの統計物理学/index-og-image.webp",
-    "public/part-100-StatisticalMechanics/part-01-Landau-Lifshitzの統計物理学/01-pockels(underconstruction)-og-image.webp",
     "public/tags/index.html",
     "public/tags/Quartz.html",
     "public/tags/setting.html",
@@ -248,9 +259,7 @@
     "public/postscript.js",
     "public/tags/generalized-symmetry.html",
     "public/part-02-Topological-order/04-boundary-CS(underconstruction).html",
-    "public/prescript.js",
     "content/part-999-DailySeeds/seeds20251230.md",
-    "content/part-998-music/hikigatari.md",
     "content/part-01-quantum-hall/08-Berry-phase.md",
     "content/part-01-quantum-hall/07-quasiparticles.md",
     "content/part-01-quantum-hall/08-anyon-overview.md",
@@ -264,15 +273,6 @@
     "content/part-999-DailySeeds/index.md",
     "content/index.md",
     "content/part-999-DailySeeds/seeds20251230 1.md",
-    "docs/layout.md",
-    "docs/configuration.md",
-    "content/part-02-Topological-order/04-boundary-CS(underconstruction).md",
-    "content/part-02-Topological-order/03-CS-theory(underconstruction).md",
-    "content/part-02-Topological-order/02-nonabelian-fqh(underconstruction).md",
-    "content/part-02-Topological-order/01-intro(underconstruction).md",
-    "content/part-200-ElectroMagnetism/part-01-光学効果/02-Kerr-effect(underconstruction).md",
-    "content/part-200-ElectroMagnetism/part-01-光学効果/01-EMTD(underconstruction).md",
-    "content/part-100-StatisticalMechanics/part-01-Landau-Lifshitzの統計物理学/01-pockels(underconstruction).md",
-    "content/part-01-quantum-hall/index.md"
+    "docs/layout.md"
   ]
 }

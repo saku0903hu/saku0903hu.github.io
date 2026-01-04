@@ -68,5 +68,5 @@ $$
 ## 前後の章
 
 ← 前：[[01-landau-levels|Landau 準位]]  
-📚 目次：[[index|量子 Hall 効果とエニオン]]  
+📚 目次：[[content/part-01-quantum-hall/index|量子 Hall 効果とエニオン]]  
 次 →：[[03-iqhe-overview(underconstruction)|整数量子 Hall 効果（IQH）]]
