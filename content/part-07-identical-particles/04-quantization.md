@@ -18,7 +18,7 @@ tags:
 Hamiltonianは自由粒子とする:
 $$
 \begin{equation}
-  H = -\frac{\hbar^2}{2m}(\frac{\partial^2}{\partial x_1^2} + \frac{\partial^2}{\partial x_2^2}) = -\frac{\hbar^2}{4m}\frac{\partial^2}{\partial x^2} - \frac{\hbar^2}{m}\frac{\partial^2}{\partial z^2}
+  H = -\frac{\hbar^2}{2m}\left(\frac{\partial^2}{\partial x_1^2} + \frac{\partial^2}{\partial x_2^2}\right) = -\frac{\hbar^2}{4m}\frac{\partial^2}{\partial x^2} - \frac{\hbar^2}{m}\frac{\partial^2}{\partial z^2}
 \end{equation}
 $$
 ただし、$m$は粒子の質量であり、重心座標 $x=\frac{x_1+x_2}{2}$ と相対座標 $z= |x_1 - x_2|$ を用いた。
