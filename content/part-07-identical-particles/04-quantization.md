@@ -216,7 +216,9 @@ $D_k$ の定義より、$b_k(x)$ は $D_k$ を通じてダイナミクスに影�
 ある任意の点$x_0$での基底ベクトル $\chi_x$ を与える。
 他の全ての点での基底ベクトルを、点$x_0$からの並行移動で定義する。
 これによって、特異点をのぞいて$b_k(x) = 0$となるゲージを選ぶことができる。
-これを**特異ゲージ** (singular gauge) と呼ぶ。
+これを**特異ゲージ** (singular gauge) と呼ぶ[^4]。
+
+[^4]: 特異ゲージの特異とは、波動関数が多価(特異)であることを指すようである。
 
 しかし、$e^{i\xi} \neq 0$ の時、波動関数は一般に多価になる。
 すなわち、特異点の周りを1周したとき、基底は
@@ -227,7 +229,91 @@ $$
 $$
 と変化する(同じ場所にあるが、向きが違う)。
 
+### 正則ゲージの方法
+もう1つの方法は、ゲージ場は有限値になるが、波動関数は1価になるようにする方法である。
+この場合、ゲージ場の影響はHamiltonianに現れる。
+これを**正則ゲージ** (regular gauge) と呼ぶ[^5]。
 
+[^5]: 正則ゲージの正則とは、波動関数が1価(正則)であることを指すようである。しかし、もちろんHamiltonianは特異になる。
+
+
+> [!abstract] 📝 この章のまとめ
+> 場の強さが0であれば、ゲージ場の影響を見えなくすることができる。
+> しかし、その影響は基底に現れる。
+> 結局、ゲージ場をHamiltonianに押し付けて波動関数を1価にするか、ゲージ場を0にする基底をとって波動関数を多価にするかという2択になる。
+
+## 2次元の場合:調和ポテンシャル中の2粒子系
+以下では、波動関数を1価にする正則ゲージの方法を用いて、調和ポテンシャル中の2粒子系を考える。
+
+極座標$(r,\varphi),\varphi\in[0,2\pi)$を用いて、2次元自由粒子のHamiltonianは
+$$
+\begin{equation}
+  H = -\frac{\hbar^2}{m} \left( \frac{\partial^2}{\partial r^2} + \frac{1}{r}\frac{\partial}{\partial r} + \frac{4}{r^2}\frac{\partial^2}{\partial \varphi^2} \right)
+\end{equation}
+$$
+である。
+ただし、波動関数の条件として
+$$
+\begin{equation}
+  \psi(r,\varphi+2\pi) =e^{i\xi} \psi(r,\varphi)
+\end{equation}
+$$
+を満たす。
+ここで、$\xi = 0$ の時はboson、$\xi = \pi$ の時はfermionに対応するが、この中間の値の$\xi$を取らない理由はなく、これが2次元におけるanyonが存在しうる理由である。
+
+(19)とは異なる波動関数の条件として、
+$$
+\begin{equation}
+  \psi(r,\varphi+2\pi) = e^{-i\frac{\xi}{2\pi}\varphi} \psi(r,\varphi)
+\end{equation}
+$$
+としても1価性がある。
+
+この時、Hamiltonianは
+$$
+\begin{align}
+  H' &= e^{-i\frac{\xi}{2\pi}\varphi} H e^{i\frac{\xi}{2\pi}\varphi} \\ 
+   &= -\frac{\hbar^2}{m} \left( \frac{\partial^2}{\partial r^2} + \frac{1}{r}\frac{\partial}{\partial r} + \frac{4}{r^2}\left(\frac{\partial}{\partial \varphi} + i\frac{\xi}{2\pi}\right)^2 \right)
+\end{align}
+$$
+となる。
+これは原点に強さ$-\frac{\xi}{2\pi}$の磁束がある場合のHamiltonianに対応しており、有効的に角運動量$l+\frac{\xi}{2\pi}$を持つ状態に対応している。
+物理的には、**Aharonov-Bohm効果**と呼ばれる現象に対応している。
+
+ここで、調和ポテンシャル $V(r) = \frac{1}{4} m \omega^2 r^2$ を加える。
+$H'+V$で駆動する系の固有関数は
+$$
+\begin{equation}
+  \Psi'(r,\varphi) = e^{il\varphi} R(r) \quad l \in \mathbb{Z}
+\end{equation}
+$$
+となる。
+ただし、有理関数$R(r)$は
+$$
+\begin{equation}
+  \left(\frac{d^2}{dr^2}  + \frac{1}{r}\frac{d}{dr} - \frac{4}{r^2}(l + \frac{\xi}{2\pi})^2 - \frac{m^2 \omega^2}{4\hbar^2} r^2 + \frac{mE}{\hbar^2}\right) R(r) = 0
+\end{equation}
+$$
+の解である。
+
+エネルギー固有値は
+$$
+\begin{equation}
+  E = 2\hbar \omega \left(n+|l+\frac{\xi}{2\pi}|+\frac{1}{2}\right) \quad n=0,1,2,\dots
+\end{equation}
+$$
+となる。
+
+このスペクトルは$\xi$に依存し、
+- $\xi = 0$ の時はboson系のスペクトル
+- $\xi = \pi$ の時はfermion系のスペクトル
+となるが、この中間の値の$\xi$に対しては、この間を連続的に変化する。
+
+## 3次元の場合
+前回述べたように、3次元の場合、同種粒子系の配位空間は実射影平面 $\mathbb{RP}^2$ になる。
+2次元の場合と同様に、状態ベクトルはを1周させるという操作は位相因子 $e^{i\xi}$ に対応する。
+しかし、2周すると元に戻るため、$e^{i\xi}$ は $\pm 1$ のみを取りうる。
+つまり、3次元の場合、同種粒子系はbosonかfermionに限られ、anyonは存在しない。
 
 ---
 ## 前後の記事
