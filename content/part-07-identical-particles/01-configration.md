@@ -31,5 +31,5 @@ $$
 ---
 ## 前後の記事
 
-📚 目次：[[content/part-01-quantum-hall/index|量子 Hall 効果とエニオン]]  
-次 →：[[01-quantum-hall|量子 Hall 効果]]
+📚 目次：[[content/part-07-identical-particles/index|part-07-同種粒子の理論]]
+次 →：[[content/part-07-identical-particles/02-Identical-particles-in-CM|02.古典力学における同種粒子(underconstruction)]]

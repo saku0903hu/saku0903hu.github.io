@@ -16,7 +16,7 @@ tags:
 空間は半平面($x_1 \geq x_2$)である。
 特異点は$z = |x_1 - x_2| = 0$である。
 Hamiltonianは自由粒子とする:
-$$
+$$ 
 \begin{equation}
   H = -\frac{\hbar^2}{2m}\left(\frac{\partial^2}{\partial x_1^2} + \frac{\partial^2}{\partial x_2^2}\right) = -\frac{\hbar^2}{4m}\frac{\partial^2}{\partial x^2} - \frac{\hbar^2}{m}\frac{\partial^2}{\partial z^2}
 \end{equation}
@@ -51,8 +51,40 @@ $$
 >となるが、これも同じ境界条件を満たす必要がある。
 > よって、$\eta_1 = \eta_2$でなければならない。
 
-この$\eta$が統計性を定める。
-- 統計性
+また、並進対称性から、$\eta$は$x$(重心座標)に依存しない。
+いま、空間は一様であるから衝突の性質は位置によらないためである。
+
+この$\eta$が系の固有の性質を決め、粒子の統計性を定める。
+
+ - Boson系は $\eta = 0$ (微分が0)
+ - Fermion系は $\eta = \infty$ (波動関数が0)
+
+となるが、この中間の値の$\eta$も許され[^1]、この領域の粒子はbosonでもfermionでもない粒子に対応し、これを**anyon**と呼ぶ[^2]: 。
+[^1]: 超選択則があるらしい。
+[^2]: この論文ではanyonという用語は使われていない。
+
+(1)の固有関数は
+$$
+\begin{equation}
+  \psi_{k,\kappa} (x,z) = \exp(i\kappa x)\left( \cos(kz)+\frac{\eta}{k}\sin(kz)\right)
+\end{equation}
+$$
+となる。
+ただし、$k$は相対運動の波数、$\kappa$は重心運動の波数である。
+三角関数の部分は
+$$
+\begin{equation}
+  \sqrt{1+\left(\frac{\eta}{k}\right)^2} \cos(kz - \delta_k)
+\end{equation}
+$$
+となり、$z=0$ で反射した波の位相が $\delta_k$ だけずれることがわかる。
+把捉としてみると、反射にかかる時間の遅れ(time shift)
+$$
+\begin{equation}
+  \tau = \frac{m\eta}{\hbar k (k^2 + \eta^2)}
+\end{equation}
+$$
+があることがわかり、これはboson,fermionの場合は0である。
 
 ---
 ## 前後の記事

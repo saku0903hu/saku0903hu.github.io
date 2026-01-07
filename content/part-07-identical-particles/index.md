@@ -18,10 +18,15 @@ $|\psi(x_1, x_2, \ldots, x_N)|^2 = |\psi(x_{\sigma(1)}, x_{\sigma(2)}, \ldots, x
 
 この章では、同種粒子系の配位空間のトポロジー的性質に注目し、同種粒子の理論を構築する。
 
+参考文献は初めてanyonの存在を示唆した論文である。
+
 ## 参考文献
 
 * J.M. Leinaas and J.Myrheim, "On the Theory of Identical Particles"
 
 ## Sections
-
+- [[01-configration|01.配位空間]]
+- [[02-Identical-particles-in-CM|02.古典力学における同種粒子(underconstruction)]]
+- [[03-Identical-particles-in-QM|03.量子力学における同種粒子]]
+- [[04-quantization|04.量子化]]
 

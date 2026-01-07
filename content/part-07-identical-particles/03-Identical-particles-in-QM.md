@@ -103,5 +103,5 @@ $S_1$上に2粒子がいるとして、ある基準点から、2粒子のちょ�
 ---
 ## 前後の記事
 
-📚 目次：[[content/part-01-quantum-hall/index|量子 Hall 効果とエニオン]]  
-次 →：[[01-quantum-hall|量子 Hall 効果]]
+📚 目次：[[content/part-07-identical-particles/index|part-07-同種粒子の理論]]
+次 →：[[content/part-07-identical-particles/04-quantization|04.量子化]]
