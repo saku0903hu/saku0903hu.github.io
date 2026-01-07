@@ -34,21 +34,21 @@ tags:
   量子ホール効果を解説したいと思っています。
   内容はまだ信用できません。
 
-  → [[part-02-Topological-order/index|トポロジカル秩序と非可換エニオン]]
+  → [[content/part-02-Topological-order(underconstruction)/index|トポロジカル秩序と非可換エニオン]]
 
   トポロジカル秩序のことを解説したいと思っています。
   戎さんの講義やらで学んだことをアウトプットしたい。
 
-  →[[part-03-invertible-symmetry/index|一般化対称性、不可逆対称性とエニオン]]
+  →[[content/part-03-invertible-symmetry(underconstruction)/index|一般化対称性、不可逆対称性とエニオン]]
 
   一般化対称性、特に不可逆対称性のことを解説したいと思っています。
   Justin Kaidiさんの講義やらで学んだことをアウトプットしたい。
 
-  →[[part-04-quantum-computer/index|量子コンピュータとエニオン]]
+  →[[content/part-04-quantum-computer(underconstruction)/index|量子コンピュータとエニオン]]
 
   量子コンピュータのことを解説したいと思っています。
 
-  →[[part-05-anyon-quantum-computer/index|エニオン量子コンピュータとエニオン]]
+  →[[content/part-05-anyon-quantum-computer(underconstruction)/index|エニオン量子コンピュータとエニオン]]
 
   未定。消すかも。
 

@@ -1,13 +1,10 @@
 ---
-
-title: part-02-トポロジカル秩序の理論的性質の理解とフィボナッチ・エニオンの実現
+title: part-02-トポロジカル秩序の理論的性質の理解とフィボナッチ・エニオンの実現(underconstruction)
 date: 2025-12-27
 tags:
-
   - anyon
   - topological-order
   - FQH
-
 ---
 
 このセミナーでは次を目標にしている。

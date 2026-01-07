@@ -1,13 +1,10 @@
 ---
-
-title: part-01-量子Hall効果とエニオン
+title: part-01-量子Hall効果とエニオン(underconstruction)
 date: 2025-12-27
 tags:
-
   - anyon
   - QHE
   - FQH
-
 ---
 
 この章では量子 Hall 効果（IQH / FQH）と、FQH に現れる分数電荷・分数統計（anyon）についてまとめる。
