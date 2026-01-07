@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/part-999-DailySeeds/seeds20251229.md",
+                "file": "content/part-07-identical-particles/03-Identical-particle-in-QM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "seeds20251229"
+              "title": "03-Identical-particle-in-QM"
             }
           },
           {
@@ -214,6 +214,12 @@
   },
   "active": "7f6796ff093ff1dd",
   "lastOpenFiles": [
+    "circleidentical.jpeg",
+    "content/part-999-DailySeeds/seeds20251229.md",
+    "content/part-07-identical-particles/02-Identical-particle-in-QM.md",
+    "content/part-07-identical-particles/03-Identical-particle-in-QM.md",
+    "IMG_862DB6324A3F-1.jpeg",
+    "IMG_C7174BCB59E0-1.jpeg",
     "2026-01-05.md",
     "無題のファイル.canvas",
     "content/part-01-quantum-hall/05-laughlin-wavefunction.md",
@@ -222,7 +228,6 @@
     "quartz/static/google2e303287784bb672.html",
     "google2e303287784bb672.html",
     "quartz/static/robots.txt",
-    "content/part-07-identical-particles/02-Identical-particle-in-QM.md",
     "content/part-07-identical-particles/02-Identical-particle-in-CM copy.md",
     "content/part-07-identical-particles/02-Identical-particle-in-CM.md",
     "content/part-07-identical-particles/02-.md",
@@ -241,8 +246,6 @@
     "public/part-98-hibiki-support/index-og-image.webp",
     "public/part-200-ElectroMagnetism/part-01-光学効果/02-Kerr-effect(underconstruction)-og-image.webp",
     "public/part-200-ElectroMagnetism/part-01-光学効果/01-EMTD(underconstruction)-og-image.webp",
-    "public/part-200-ElectroMagnetism/index-og-image.webp",
-    "public/part-100-StatisticalMechanics/part-01-Landau-Lifshitzの統計物理学/index-og-image.webp",
     "public/tags/index.html",
     "public/tags/Quartz.html",
     "public/tags/setting.html",
@@ -257,8 +260,6 @@
     "content/part-01-quantum-hall/09-hierarchy(underconstruction).md",
     "content/part-01-quantum-hall/06-filing factor and Laughlin wavefunction parameter.md",
     "content/Other gardens.md",
-    "content/part-999-DailySeeds/seeds20251229.md",
-    "content/part-999-DailySeeds/push.md",
-    "他人様の庭.md"
+    "content/part-999-DailySeeds/push.md"
   ]
 }
