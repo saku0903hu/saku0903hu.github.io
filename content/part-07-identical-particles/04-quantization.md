@@ -3,6 +3,11 @@ title: 04.量子化
 date: 2025-12-27
 tags:
   - anyon
+  - 2dsystem
+  - identicalparticles
+  - topology
+  - quantummechanics
+  - quasiparticle
 ---
 
 # 同種粒子系の量子力学的扱い
@@ -318,5 +323,4 @@ $$
 ---
 ## 前後の記事
 
-📚 目次：[[content/part-01-quantum-hall/index|量子 Hall 効果とエニオン]]  
-次 →：[[01-quantum-hall|量子 Hall 効果]]
+📚 目次：[[content/part-07-identical-particles/index|part-07-同種粒子の理論]]

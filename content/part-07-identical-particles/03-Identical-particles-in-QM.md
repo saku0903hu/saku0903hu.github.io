@@ -3,6 +3,10 @@ title: 03.量子力学における同種粒子
 date: 2025-12-27
 tags:
   - anyon
+  - 2dsystem
+  - quantummechanics
+  - topology
+  - identicalparticles
 ---
 
 # 同種粒子系の配位空間

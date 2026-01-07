@@ -4,6 +4,10 @@ date: 2025-12-27
 tags:
   - anyon
   - identicalparticles
+  - 2dsystem
+  - classicalmechanics
+  - quantummechanics
+  - topology
 ---
 
 この章では同種粒子の理論をまとめる。
