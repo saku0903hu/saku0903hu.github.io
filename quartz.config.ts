@@ -8,16 +8,15 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quanta Garden",
+    pageTitle: "Physical Gardens",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "google",
-      tagId: "G-FDZR36N8RP",
+      provider: "plausible",
     },
-    locale: "ja-JP",
-    baseUrl: "saku0903hu.github.io",
+    locale: "en-US",
+    baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
@@ -73,14 +72,9 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({
-        renderEngine: "mathjax",
+      renderEngine: "mathjax",
         customMacros: {
           "\\bm": ["\\boldsymbol{#1}", 1],
-        },
-        mathJaxOptions: {
-          tex: {
-            tags: "ams",
-          },
         },
       }),
     ],

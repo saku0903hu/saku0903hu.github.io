@@ -8,15 +8,8 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/saku0903hu",
-      X: "https://x.com/sakume_rry_gg",
-      About: "https://saku0903hu.github.io/about",
-      "更新履歴": "https://saku0903hu.github.io/changelog",
-      RSS: "https://saku0903hu.github.io/index.xml",
-      // Mail を出したくなったらこの形で：
-      // Mail: "mailto:your.name@example.com",
-      // あるいは Contact ページを作って：
-      // Contact: "https://saku0903hu.github.io/contact",
+      GitHub: "https://github.com/jackyzha0/quartz",
+      "Discord Community": "https://discord.gg/cRFFHYye7t",
     },
   }),
 }
@@ -37,12 +30,19 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
-        { Component: Component.Search(), grow: true },
+        {
+          Component: Component.Search(),
+          grow: true,
+        },
         { Component: Component.Darkmode() },
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer({ title: "🌱Garden" }),
+    Component.Explorer({
+      title: "🌱Garden",
+    }
+
+    ),
   ],
   right: [
     Component.Graph(),
@@ -59,11 +59,14 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
-        { Component: Component.Search(), grow: true },
+        {
+          Component: Component.Search(),
+          grow: true,
+        },
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer({ title: "🌱Garden" }),
+    Component.Explorer(),
   ],
   right: [],
 }

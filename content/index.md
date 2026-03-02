@@ -7,89 +7,21 @@ tags:
   - quantum-hall
 ---
 
-## 管理人紹介
+## 自己紹介
 
-管理人は物性理論・トポロジカル物性・エニオンを中心に勉強・研究しているB4です。
-このサイトは、自分の理解の整理・文献まとめ・セミナー記録、趣味の記録を目的とした  
-ノート（Quanta Garden）です。
+物性理論・トポロジカル物性・エニオンを中心に勉強・研究しています。  
+このサイトは、自分の理解の整理・文献まとめ・セミナー記録を目的とした  
+**研究用ノート（digital garden）**です。
 
 - 興味：エニオン、量子 Hall 効果、Chern–Simons 理論、トポロジカル量子計算
 - スタイル：途中経過・未完成のメモも含めて公開
 
-移植の関係で、内容がまだ信頼できるものではないです。
-
-
-## Notes
-
-主に学んだことをアウトプットしています。
-
-なるべく正しい情報を書くように心がけますが、内容はまだ保証できません。
-
-一部数式の補佐をcopilotに頼っていますが、文章は自分で書いています。
-
-- ### エニオンについて
-
-  →  [[content/part-01-quantum-hall/index|量子ホール効果とエニオン]]
-
-  量子ホール効果を解説したいと思っています。
-  内容はまだ信用できません。
-
-  → [[content/part-02-Topological-order(underconstruction)/index|トポロジカル秩序と非可換エニオン]]
-
-  トポロジカル秩序のことを解説したいと思っています。
-  戎さんの講義やらで学んだことをアウトプットしたい。
-
-  →[[content/part-03-invertible-symmetry(underconstruction)/index|一般化対称性、不可逆対称性とエニオン]]
-
-  一般化対称性、特に不可逆対称性のことを解説したいと思っています。
-  Justin Kaidiさんの講義やらで学んだことをアウトプットしたい。
-
-  →[[content/part-04-quantum-computer(underconstruction)/index|量子コンピュータとエニオン]]
-
-  量子コンピュータのことを解説したいと思っています。
-
-  →[[content/part-05-anyon-quantum-computer(underconstruction)/index|エニオン量子コンピュータとエニオン]]
-
-  未定。消すかも。
-
-  →[[part-06-appendix/index|エニオン絡みの雑学など]]
-
-  未定。
-
-  →[[part-98-hibiki-support/index|同人誌に寄稿した記事のサポートページ]]
-
-  誤字脱字、式変形のミス、解釈のミスなどを載せる予定です。
-  サイトの都合上、パスワードは入らなくなりそう。
-
-- ### [[part-100-StatisticalMechanics/|熱力学、統計物理学]]
-  統計物理の色々をまとめていきます。
-
-  Landauの統計物理や清水さんの熱力学など、ノートが溜まっている。
-
-- ### [[part-200-ElectroMagnetism/|電磁気学]]
-  電磁気学の色々をまとめていきます。
-  
-  Landauの電磁気学や光学など、ノートが溜まっている。
-
-
-- ### [[part-999-DailySeeds|Daily Seeds]]
-  日記や思ったことを載せるところ。
-
-### 追加したいもの
-  - 揺らぐ系の熱力学
-
-  - 場の量子論、特に位相的場の理論
-
-  - 数学、特にトポロジー、微分幾何学
 ---
 
 ## このページについて
 
 このサイトは **Quartz 4** を用いて構築しています。  
-ノーマルの文章はObsidianで書き、数式を用いた文章はVSCodeでcopilotの補佐を受けながら書いています。
-その文章をgithubにpushし、GitHub Pagesでホスティングしています。
-
-一部数式の補佐をcopilotに頼っていますが、文章は自分で書いています。
+Markdown で書いた研究ノートを、リンク構造（Graph View）を重視して整理しています。
 
 - 各「Part」はテーマごとのまとまり
 - index ページはハブとして機能
@@ -98,17 +30,20 @@ tags:
 ---
 
 ## Links
-<!-- 以下のリンクは管理人に関するものです。 
+
 - 📚 **研究ノート一覧**  
-  → [#Notes](#notes)
+  → [[anyon/index|Anyon theory]]
 
 - 🐦 **X (Twitter)**  
-  → https://x.com/sakume_rry_gg
-
-  -->
+  → https://x.com/あなたのID
 
 - 💻 **GitHub（このサイトのソース）**  
-  → https://github.com/saku0903hu
+  → https://github.com/あなたのリポジトリ
 
 ---
 
+## このサイトの構成
+
+- [[anyon/part-02-quantum-hall/index|量子 Hall 効果とエニオン]]
+- [[anyon/part-03-ebisu-seminer/index|トポロジカル秩序と非可換エニオン]]
+- [[anyon/part-05-quantum-computer/index|量子コンピュータとエニオン]]
