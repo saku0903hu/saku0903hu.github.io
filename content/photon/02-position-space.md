@@ -14,7 +14,7 @@ $$a_{s\lambda}(x, t) = a_{s\lambda}(x - sct, 0) \tag{8}$$
 
 この式は、自由空間における量子化EM場の基本的な運動方程式を提供する。
 
-次に、高度に局所化された場の励起が局所的な場の期待値の起源であることに注意する。以降、式 (8) を用いて、マクスウェル方程式と整合する局所的な場の観測量を導出する。誘電率 $\varepsilon$ と透磁率 $\mu$ の媒質中（$c = 1/\sqrt{\varepsilon\mu}$）で、電荷と電流がない場合、位置 $\mathbf{r}$、時刻 $t$ における電場 $\mathbf{E}(\mathbf{r}, t)$ と磁場 $\mathbf{B}(\mathbf{r}, t)$ に対するマクスウェル方程式は以下で与えられる [19]：
+次に、高度に局所化された場の励起が局所的な場の期待値の起源であることに注意する。以降、式 (8) を用いて、マクスウェル方程式と整合する局所的な場の観測量を導出する。誘電率 $\varepsilon$ と透磁率 $\mu$ の媒質中（$c = 1/\sqrt{\varepsilon\mu}$）で、電荷と電流がない場合、位置 $\mathbf{r}$、時刻 $t$ における電場 $\mathbf{E}(\mathbf{r}, t)$ と磁場 $\mathbf{B}(\mathbf{r}, t)$ に対するマクスウェル方程式は以下で与えられる [[19](references#ref19)]：
 
 $$\nabla \cdot \mathbf{E}(\mathbf{r}, t) = 0, \quad \nabla \times \mathbf{E}(\mathbf{r}, t) = -\dot{\mathbf{B}}(\mathbf{r}, t)$$
 $$\nabla \cdot \mathbf{B}(\mathbf{r}, t) = 0, \quad \nabla \times \mathbf{B}(\mathbf{r}, t) = \varepsilon\mu \dot{\mathbf{E}}(\mathbf{r}, t) \tag{9}$$

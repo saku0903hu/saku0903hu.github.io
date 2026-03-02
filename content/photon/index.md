@@ -22,3 +22,4 @@ title: "局所的に作用するミラー・ハミルトニアン"
 3. [[03-comparing-representations|第3章：異なる位置・運動量空間表現の比較]]
 4. [[04-two-sided-mirrors|第4章：両面半透明ミラー]]
 5. [[05-conclusions|第5章：結論]]
+6. [[references|参考文献 (References)]]
