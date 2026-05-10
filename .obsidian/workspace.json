@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/part-07-identical-particles/index.md",
+                "file": "content/part-998-music/hikigatari.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "hikigatari"
+            }
+          },
+          {
+            "id": "0e278c2868127bd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/part-300-koderalab/02- Equipment.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02- Equipment"
             }
           },
           {
@@ -49,7 +63,8 @@
               "title": "index"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -212,10 +227,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7f6796ff093ff1dd",
+  "active": "0e278c2868127bd1",
   "lastOpenFiles": [
-    "content/part-07-identical-particles/04-quantization.md",
+    "content/part-300-koderalab/IMG_2297.jpeg",
+    "content/part-300-koderalab/01-circuit.md",
+    "content/part-300-koderalab/02- Equipment.md",
+    "content/part-200-ElectroMagnetism(tips)/part-01-光学効果/02-Kerr-effect(underconstruction).md",
+    "content/part-300-koderalab/index.md",
+    "content/part-998-music/hikigatari.md",
+    "content/part-200-ElectroMagnetism(tips)/part-01-光学効果/01-EMTD(underconstruction).md",
+    "content/part-100-StatisticalMechanics(tips)/part-01-Landau-Lifshitzの統計物理学/index.md",
+    "content/part-100-StatisticalMechanics(tips)/index.md",
+    "content/part-200-ElectroMagnetism(tips)/index.md",
+    "無題のファイル.canvas",
+    "無題のファイル 1.md",
+    "content/part-300-koderalab",
     "content/part-07-identical-particles/index.md",
+    "content/part-07-identical-particles/04-quantization.md",
     "content/part-07-identical-particles/IMG_C7174BCB59E0-1.jpeg",
     "content/part-07-identical-particles/03-Identical-particles-in-QM.md",
     "content/part-07-identical-particles/02-Identical-particles-in-CM.md",
@@ -237,7 +265,6 @@
     "public/part-03-invertible-symmetry(underconstruction)",
     "public/part-04-quantum-computer(underconstruction)/index-og-image.webp",
     "public/part-04-quantum-computer(underconstruction)/index.html",
-    "public/part-04-quantum-computer(underconstruction)",
     "public/part-05-anyon-quantum-computer(underconstruction)/index-og-image.webp",
     "content/part-05-anyon-quantum-computer(underconstruction)/index.md",
     "content/part-999-DailySeeds/seeds20251229.md",
@@ -248,17 +275,6 @@
     "public/part-998-music/hikigatari-og-image.webp",
     "public/part-98-hibiki-support/index-og-image.webp",
     "content/part-07-identical-particles/03-Identical-particle-in-QM.md",
-    "content/part-07-identical-particles/03-Identical-particle-in-QM copy.md",
-    "content/part-07-identical-particles/02-Identical-particle-in-QM.md",
-    "2026-01-05.md",
-    "無題のファイル.canvas",
-    "content/part-01-quantum-hall/05-laughlin-wavefunction.md",
-    "content/index.md",
-    "content/part-07-identical-particles/02-Identical-particle-in-CM copy.md",
-    "content/part-07-identical-particles/02-Identical-particle-in-CM.md",
-    "content/part-07-identical-particles/02-.md",
-    "content/part-07-identical-particles/01-configration copy.md",
-    "content/part-100-StatisticalMechanics(tips)/index.md",
-    "content/part-06-appendix/index.md"
+    "content/part-07-identical-particles/03-Identical-particle-in-QM copy.md"
   ]
 }
