@@ -13,12 +13,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/part-07-identical-particles/index.md",
+                "file": "content/part-998-music/hikigatari.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "hikigatari"
+            }
+          },
+          {
+            "id": "0e278c2868127bd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/part-999-DailySeeds/VLSI 1 final report.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "VLSI 1 final report"
+            }
+          },
+          {
+            "id": "d7b68821223b0c4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/part-300-koderalab/02- Equipment.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02- Equipment"
             }
           },
           {
@@ -49,7 +77,8 @@
               "title": "index"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,63 +231,64 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新規ベースを作成": false,
       "switcher:クイックスイッチャーを開く": false,
       "graph:グラフビューを開く": false,
       "canvas:新規キャンバスを作成": false,
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
       "command-palette:コマンドパレットを開く": false,
-      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7f6796ff093ff1dd",
+  "active": "0e278c2868127bd1",
   "lastOpenFiles": [
-    "content/part-07-identical-particles/04-quantization.md",
-    "content/part-07-identical-particles/index.md",
-    "content/part-07-identical-particles/IMG_C7174BCB59E0-1.jpeg",
-    "content/part-07-identical-particles/03-Identical-particles-in-QM.md",
-    "content/part-07-identical-particles/02-Identical-particles-in-CM.md",
-    "content/part-07-identical-particles/01-configration.md",
-    "content/part-100-StatisticalMechanics(tips)/part-01-Landau-Lifshitzの統計物理学/01-pockels(underconstruction).md",
-    "content/part-01-quantum-hall/09-hierarchy(underconstruction).md",
-    "content/part-01-quantum-hall/index.md",
-    "content/part-01-quantum-hall/01-landau-levels.md",
-    "content/part-02-Topological-order(underconstruction)/index.md",
-    "content/part-04-quantum-computer(underconstruction)/index.md",
-    "public/part-02-Topological-order(underconstruction)/index.html",
-    "public/part-02-Topological-order(underconstruction)/04-boundary-CS(underconstruction).html",
-    "public/part-02-Topological-order(underconstruction)/03-CS-theory(underconstruction).html",
-    "public/part-02-Topological-order(underconstruction)/02-nonabelian-fqh(underconstruction).html",
-    "public/part-02-Topological-order(underconstruction)/01-intro(underconstruction).html",
-    "public/part-02-Topological-order(underconstruction)",
-    "public/part-03-invertible-symmetry(underconstruction)/index-og-image.webp",
-    "public/part-03-invertible-symmetry(underconstruction)/index.html",
-    "public/part-03-invertible-symmetry(underconstruction)",
-    "public/part-04-quantum-computer(underconstruction)/index-og-image.webp",
-    "public/part-04-quantum-computer(underconstruction)/index.html",
-    "public/part-04-quantum-computer(underconstruction)",
-    "public/part-05-anyon-quantum-computer(underconstruction)/index-og-image.webp",
-    "content/part-05-anyon-quantum-computer(underconstruction)/index.md",
-    "content/part-999-DailySeeds/seeds20251229.md",
-    "public/part-999-DailySeeds/seeds20251230-og-image.webp",
-    "public/part-999-DailySeeds/seeds20251229-og-image.webp",
-    "public/part-999-DailySeeds/push-og-image.webp",
-    "public/part-999-DailySeeds/index-og-image.webp",
-    "public/part-998-music/hikigatari-og-image.webp",
-    "public/part-98-hibiki-support/index-og-image.webp",
-    "content/part-07-identical-particles/03-Identical-particle-in-QM.md",
-    "content/part-07-identical-particles/03-Identical-particle-in-QM copy.md",
-    "content/part-07-identical-particles/02-Identical-particle-in-QM.md",
-    "2026-01-05.md",
+    "content/part-999-DailySeeds/DEI final report Correcting Systemic Imbalance and Navigating Unknown Changes, Equity and the Pursuit of Diversity in Corporations 1.md",
+    "content/part-999-DailySeeds/VLSI 1 final report.md",
+    "content/part-999-DailySeeds/DEI final report Correcting Systemic Imbalance and Navigating Unknown Changes, Equity and the Pursuit of Diversity in Corporations 1 copy.md",
+    "content/part-999-DailySeeds/DEI final report Correcting Systemic Imbalance and Navigating Unknown Changes, Equity and the Pursuit of Diversity in Corporations.md",
+    "content/part-300-koderalab/06- measurement.md",
+    "content/part-999-DailySeeds/Special Lecture I on Integrated Green-niX 7 homework.md",
+    "content/part-300-koderalab/03- experiment circuit.md",
+    "content/part-300-koderalab/05- signal analysis.md",
+    "content/part-300-koderalab/04- cycle touring.md",
+    "content/part-999-DailySeeds/memo.md",
+    "content/part-999-DailySeeds/plasma engineering 7exercise 1.md",
+    "content/part-999-DailySeeds/plasma engineering 6exercise.md",
+    "content/part-300-koderalab/02- Equipment.md",
+    "content/part-300-koderalab/01-circuit element.md",
+    "content/part-300-koderalab/01-circuit.md",
+    "content/part-999-DailySeeds/plasma engineering 5 exercise.md",
+    "content/part-999-DailySeeds/plasma engineering 4 exercise.md",
+    "Pasted image 20260521102635.png",
+    "content/part-999-DailySeeds/Special Lecture I on Integrated Green-niX 6 homework.md",
+    "Pasted image 20260520180404.png",
+    "content/part-300-koderalab/00 - qleap.md",
+    "content/part-999-DailySeeds/Realization of Generating 1D Anyons through Time Evolution.md",
+    "Pasted image 20260520171655.png",
+    "Pasted image 20260520171609.png",
+    "content/part-999-DailySeeds/plasma engineering 3 exercise.md",
+    "Anyon Research Note.pdf",
+    "Pasted image 20260519170046.png",
+    "Pasted image 20260519170022.png",
+    "Pasted image 20260519165959.png",
+    "Pasted image 20260519165946.png",
+    "Pasted image 20260519165933.png",
+    "Pasted image 20260519165919.png",
+    "README.md",
+    "無題のファイル.md",
     "無題のファイル.canvas",
-    "content/part-01-quantum-hall/05-laughlin-wavefunction.md",
-    "content/index.md",
-    "content/part-07-identical-particles/02-Identical-particle-in-CM copy.md",
-    "content/part-07-identical-particles/02-Identical-particle-in-CM.md",
-    "content/part-07-identical-particles/02-.md",
-    "content/part-07-identical-particles/01-configration copy.md",
-    "content/part-100-StatisticalMechanics(tips)/index.md",
-    "content/part-06-appendix/index.md"
+    "CODE_OF_CONDUCT.md",
+    "2026-01-05.md",
+    "2026-05-16.md",
+    "content/part-400 many body elementary particles",
+    "content/photon",
+    "content/anyon/part-08-idea(private)",
+    "content/anyon/part-07-appendix",
+    "content/anyon/part-06-anyon-quantum-computer",
+    "content/anyon/part-05-quantum-computer",
+    "content/anyon/part-04-invertible-symmery",
+    "content/anyon/part-03-ebisu-seminer",
+    "content/anyon/part-02-quantum-hall"
   ]
 }
